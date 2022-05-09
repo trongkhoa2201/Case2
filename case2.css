@@ -249,11 +249,15 @@ hr{
     width: 100%;
     border-radius: 10px;
 }
+.container-text{
+    margin-top: 50px;
+}
 #contact{
     width: 100%;
     padding: 70px 0;
     background: #efefef;
     flex: auto;
+    text-align: center;
 }
 .contact-social{
     width: 80%;
