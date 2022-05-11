@@ -1,8 +1,8 @@
 *{
-    box-shadow: border-box;
     margin: 0;
     padding: 0;
     font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
 }
 #banner{
     background: linear-gradient(rgba(0,0,0,0.5),#B0E0E6),
@@ -220,10 +220,66 @@ hr{
     bottom: 40%;
     opacity: 1;
 }
-#portfolio{
+#work {
     width: 100%;
     padding: 70px 0;
     background: #fff;
+}
+.work-title h1{
+    text-align: center;
+    margin-bottom: 40px;
+    font-weight: 100;
+    color: cadetblue;
+}
+.work-title h2{
+    text-align: center;
+}
+.work-title p{
+    text-align: center;
+}
+.works {
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: auto;
+}
+.works .icon {
+    position: relative;
+    width: 175px;
+	height: 175px;
+	margin: 0 auto;
+    text-align: center;
+    line-height: 180px;
+    font-size: 58px;
+    color:#fff;
+	border-radius: 50%;
+    box-shadow:0 0 0 0 rgba(0,0,0,0.0);
+	margin-bottom: 30px;
+    transition:all .3s ease-out;
+	border: 1px solid #E04343;
+	color: #E04343;
+}
+.works h2{
+    text-align: center;
+    color: cadetblue;
+}
+.work-title .item:hover .icon {
+	background: #E04343;
+	border: 1px solid #E04343;
+}
+.work-title .item [class*=fa] {
+	transition:all .3s ease-out;
+}
+.work-title .item:hover [class*=fa] {
+	transform:scale(1.2);
+	transition:all .3s ease-out;
+	color:#fff;
+}
+#portfolio{
+    width: 100%;
+    padding: 70px 0;
+    background: #efefef;
 }
 .container{
     text-align: center;
@@ -255,7 +311,7 @@ hr{
 #contact{
     width: 100%;
     padding: 70px 0;
-    background: #efefef;
+    background: #fff;
     flex: auto;
     text-align: center;
 }
