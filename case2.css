@@ -335,10 +335,31 @@ hr{
 .work-btn a:hover{
     color: #000
 }
-#portfolio{
+#blog {
     width: 100%;
     padding: 70px 0;
     background: #fff;
+}
+.container h1 {
+    color: cadetblue;
+}
+.card {
+    width: 350px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+.card img {
+    width: 60%;
+    border-radius: 300px;
+}
+.card a {
+    font-size: 24px;
+}
+
+#portfolio{
+    width: 100%;
+    padding: 70px 0;
+    background: #efefef;
 }
 .container{
     text-align: center;
@@ -370,7 +391,7 @@ hr{
 #contact{
     width: 100%;
     padding: 70px 0;
-    background: #efefef;
+    background: #fff;
     flex: auto;
     text-align: center;
 }
