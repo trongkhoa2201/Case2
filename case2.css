@@ -346,7 +346,6 @@ hr{
 .card {
     width: 350px;
     margin-top: 50px;
-    margin-bottom: 20px;
 }
 .card img {
     width: 60%;
@@ -355,7 +354,38 @@ hr{
 .card a {
     font-size: 24px;
 }
-
+.blog-btn{
+    margin: 70px auto 0;
+    text-align: center;
+}
+.blog-btn a{
+    position: relative;
+    width: 150px;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 10px;
+    padding: 12px 0;
+    color: black;
+    border: 2px solid black;
+    z-index: 1;
+    transition: color 0.5s;
+}
+.blog-btn a span{
+    width: 0%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #B0E0E6;
+    z-index: -1;
+    transition: 0.5s;
+}
+.blog-btn a:hover span{
+    width: 100%;
+}
+.blog-btn a:hover{
+    color: #000
+}
 #portfolio{
     width: 100%;
     padding: 70px 0;
@@ -392,8 +422,7 @@ hr{
     width: 100%;
     padding: 70px 0;
     background: #fff;
-    flex: auto;
-    text-align: center;
+    flex: left;
 }
 .contact-social{
     width: 80%;
@@ -403,11 +432,50 @@ hr{
 .contact-social h1{
     text-align: center;
     color: cadetblue;
+    margin-bottom: 50px;
 }
 .contact-social p{
     font-size: 12px;
-    margin-top: 20px;
+    margin-top: 10px;
     color: #000;
+}
+.form{
+    margin: 0;
+}
+.contact-social label {
+	float:left;
+}
+.contact-social .form-control {
+	margin-bottom:20px;
+	border:1px solid #cbcbcb;
+	height:45px;
+}
+.contact-social textarea.form-control {
+	height: 310px;
+}
+.contact-social .form-control {
+	border-radius:0!important;
+	box-shadow:none;
+}
+.contact-social .form-control:focus {
+	box-shadow:none;
+	border:1px solid #B0B0B0;
+}
+.btn-send{
+	background:#E04343;
+	color: white;
+	transition: all 0.4s;
+	border-radius: 0;
+	float: right;
+}
+
+.btn-send:hover{
+	background: #FFE800;
+	color: #E04343
+}
+
+button,button:focus,button:hover,button:active {
+	outline: none!important;
 }
 .fa {
     padding: 20px;
@@ -435,6 +503,14 @@ hr{
 .fa-instagram {
     background: #125688;
     color: white;
+}
+#footer {
+	background-color:#efefef;
+	padding:20px;
+    text-align: center;
+}
+.footer p {
+	color: #808080;
 }
 @media screen and (max-width:576px) {
     
