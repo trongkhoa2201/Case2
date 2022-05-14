@@ -512,7 +512,18 @@ button,button:focus,button:hover,button:active {
 .footer p {
 	color: #808080;
 }
-@media screen and (max-width:576px) {
+@media screen and (max-width:320px) {
+    #banner{
+        text-align: center;
+    }
+    #favorite {
+        flex-direction: column;
+    }
+}
+@media screen and (max-width:480px) {
+    #banner{
+        text-align: center;
+    }
     #favorite {
         flex-direction: column;
     }
