@@ -559,3 +559,17 @@ button,button:focus,button:hover,button:active {
         width: 100%;
     }
 }
+@media screen and (max-width:768px) {
+    .banner-text{
+        flex-direction: row;
+        font-size: 50vw;
+    }
+    .about-box{
+        flex-direction: column;
+        width: 100%;
+    }
+    .favorite-box{
+        flex-direction: column;
+        width: 100%;
+    }
+}
