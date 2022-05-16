@@ -24,22 +24,6 @@
     font-style: italic;
 }
 
-#menuBtn{
-    width: 50px;
-    height: 50px;
-    background:cadetblue;
-    text-align: center;
-    position: fixed;
-    right: 30px;
-    top: 20px;
-    border-radius: 3px;
-    z-index: 3;
-    cursor: pointer;
-}
-#menuBtn img{
-    width: 20px;
-    margin-top: 15px;
-}
 #sideNav{
     width: 250px;
     height: 100vh;
@@ -58,6 +42,25 @@ nav ul li a{
     text-decoration: none;
     color: #fff;
 }
+
+#menuBtn{
+    width: 50px;
+    height: 50px;
+    background:cadetblue;
+    text-align: center;
+    position: fixed;
+    right: 30px;
+    top: 20px;
+    border-radius: 3px;
+    z-index: 3;
+    cursor: pointer;
+    overflow: hidden;
+}
+#menuBtn img{
+    width: 20px;
+    margin-top: 15px;
+}
+
 #about{
     width: 100%;
     padding: 70px 0;
@@ -521,6 +524,7 @@ button,button:focus,button:hover,button:active {
     .banner-text{
         flex-direction: row;
         font-size: 50vw;
+        width: 100%;
     }
     .about-box{
         flex-direction: column;
@@ -529,6 +533,7 @@ button,button:focus,button:hover,button:active {
     .favorite-box{
         flex-direction: column;
         width: 100%;
+        text-align: center;
     }
 }
 @media screen and (max-width:480px) {
@@ -543,6 +548,7 @@ button,button:focus,button:hover,button:active {
     .favorite-box{
         flex-direction: column;
         width: 100%;
+        text-align: center;
     }
 }
 @media screen and (max-width:600px) {
@@ -557,9 +563,10 @@ button,button:focus,button:hover,button:active {
     .favorite-box{
         flex-direction: column;
         width: 100%;
+        text-align: center;
     }
 }
-@media screen and (max-width:768px) {
+@media screen and (max-width:820px) and (max-device-width: 1180px) {
     .banner-text{
         flex-direction: row;
         font-size: 50vw;
@@ -571,5 +578,10 @@ button,button:focus,button:hover,button:active {
     .favorite-box{
         flex-direction: column;
         width: 100%;
+        text-align: center;
+    }
+    .blog{
+        flex-direction: column;
+        margin-left: 25%;
     }
 }
