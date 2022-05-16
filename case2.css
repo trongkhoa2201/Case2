@@ -520,7 +520,7 @@ button,button:focus,button:hover,button:active {
 @media screen and (max-width:320px) {
     .banner-text{
         flex-direction: row;
-        font-size: smaller;
+        font-size: 50vw;
     }
     .about-box{
         flex-direction: column;
@@ -534,7 +534,7 @@ button,button:focus,button:hover,button:active {
 @media screen and (max-width:480px) {
     .banner-text{
         flex-direction: row;
-        font-size: smaller;
+        font-size: 50vw;
     }
     .about-box{
         flex-direction: column;
@@ -548,7 +548,7 @@ button,button:focus,button:hover,button:active {
 @media screen and (max-width:600px) {
     .banner-text{
         flex-direction: row;
-        font-size: smaller;
+        font-size: 50vw;
     }
     .about-box{
         flex-direction: column;
