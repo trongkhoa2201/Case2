@@ -295,6 +295,10 @@ hr{
     background-size: cover;
     width: 104%;
 }
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
 .color-bg {
 	background: #efefef;
 }
