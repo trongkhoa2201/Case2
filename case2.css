@@ -512,19 +512,46 @@ button,button:focus,button:hover,button:active {
 .footer p {
 	color: #808080;
 }
+
 @media screen and (max-width:320px) {
-    #banner{
-        text-align: center;
+    .banner-text{
+        flex-direction: row;
+        font-size: smaller;
     }
-    #favorite {
+    .about-box{
         flex-direction: column;
+        width: 100%;
+    }
+    .favorite-box{
+        flex-direction: column;
+        width: 100%;
     }
 }
 @media screen and (max-width:480px) {
-    #banner{
-        text-align: center;
+    .banner-text{
+        flex-direction: row;
+        font-size: smaller;
     }
-    #favorite {
+    .about-box{
         flex-direction: column;
+        width: 100%;
+    }
+    .favorite-box{
+        flex-direction: column;
+        width: 100%;
+    }
+}
+@media screen and (max-width:600px) {
+    .banner-text{
+        flex-direction: row;
+        font-size: smaller;
+    }
+    .about-box{
+        flex-direction: column;
+        width: 100%;
+    }
+    .favorite-box{
+        flex-direction: column;
+        width: 100%;
     }
 }
